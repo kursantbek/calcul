@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="video">
+    <iframe src="./php.mp4" frameborder="0" ></iframe>
+    <div class="center">
+        <form id="Keypad">
+             <table class="tb" >
+                 <tr>
+                     <td>
+                         <input id="ReadOut" type="Text" class="se" value="0" disabled colspan=4 align=middle>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>
+                         <button type="button" value="ce" id="clearentry">ce</button>
+                         <button type="button" value="c" id="clear" >c</button>
+                         <button type="button" value="%" id="percent">%</button>
+                         <button type="button" value="/" class="operation">/</button>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>
+                         <button type="button" value="7" class="numpressed">7</button>
+                         <button type="button" value="8" class="numpressed">8</button>
+                         <button type="button" value="9" class="numpressed">9</button>
+                         <button type="button" value="*" class="operation">*</button>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>
+                         <button type="button" value="4" class="numpressed">4</button>
+                         <button type="button" value="5" class="numpressed">5</button>
+                         <button type="button" value="6" class="numpressed">6</button>
+                         <button type="button" value="-" class="operation" >-</button>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>
+                         <button type="button" value="1" class="numpressed">1</button>
+                         <button type="button" value="2" class="numpressed">2</button>
+                         <button type="button" value="3" class="numpressed">3</button>
+                         <button type="button" value="+" class="operation" >+</button>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>
+                         <button type="button" value="7" id="neg">+/-</button>
+                         <button type="button" value="0" class="numpressed">0</button>
+                         <button type="button" value="." id="decimal">.</button>
+                         <button type="button" value="=" class="operation">=</button
+                     </td>
+                 </tr>
+             </table>
+         </form>
+     </div>
+</div>
+    
+       <script src="main.js"></script>
+</body>
+</html>
